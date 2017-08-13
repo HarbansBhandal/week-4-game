@@ -7,4 +7,10 @@
 body{
     /*padding: 20%;*/
     position:relative;
-    font-family: "CHLORINAP";}
+    font-family: "CHLORINAP";
+    font-size: 25px;
+    color: black;
+  	text-align: center;
+  	background-image: url(../images/sky.jpg);
+  	background-size: cover;}
+		

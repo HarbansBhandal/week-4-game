@@ -1,4 +1,6 @@
 
+
+
 var wins = 0;
 var losses = 0;
 
@@ -7,7 +9,7 @@ var math = 0;
 /**Random Number**/
 var number = Math.floor((Math.random()* 120) + 19);
 
-/**Random Crystal Power**/
+/**Random Mario Power**/
 var mushroom = Math.floor((Math.random()* 12) + 1);
 var RedCoin = Math.floor((Math.random()* 12) + 1);
 var Star = Math.floor((Math.random()* 12) + 1);
