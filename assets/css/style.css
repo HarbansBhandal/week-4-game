@@ -1,0 +1,10 @@
+@font-face {
+						font-family: CHLORINAP
+						src:url("./CHLORINAP.TTF") ;
+}
+
+
+body{
+    /*padding: 20%;*/
+    position:relative;
+    font-family: "CHLORINAP";}

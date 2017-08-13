@@ -1,0 +1,45 @@
+<html>
+<head>
+	<title>MARIO GAME</title>
+	<meta charset="UTF-8">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+</head>
+<body>
+	<header>
+		<h1 id ="name">MARIO GAME!!</h1>
+	</header>
+	<div class="instructions">
+		<p>At the start of each game you will see Bowser's Number!</p>
+		<p> You must click on one of the four power ups to match Bowser's number!</p>
+		<p>Each power up has a hidden number, try not to go over or you lose!</p>
+		<br>
+	</div>
+	<div class="random">
+		<div class="number"></div>
+
+	<div class="outcome">
+		Wins:<div id='wins'></div>
+		Losses:<div id='losses'></div>
+	</div>
+
+	<div class='power'>
+		<img src="assets/images/mushroom.png" class='click' id='mushroom' style="width: 100px">
+		<img src="assets/images/RedCoin.png" class='click' id='RedCoin' style="width: 100px">
+		<img src="assets/images/Star.png" class='click' id='Star' style="width: 100px">
+		<img src="assets/images/Metalbox.png" class='click' id='Metalbox' style="width: 100px">
+	</div>
+
+	<div class='score'>
+		<h3>MARIO'S POWER LEVEL:</h3>
+	</div>
+
+	<div class='math'></div>
+	
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+	</body>
+</html>
